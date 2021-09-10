@@ -23,6 +23,6 @@ export default function Starships(props) {
     
 
     return (
-        <li>Starships: {ship}</li>
+        <p>Starships: {ship}</p>
     )
 }

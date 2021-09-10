@@ -23,6 +23,6 @@ export default function Vehicles(props) {
     
 
     return (
-        <li>Vehicles: {ride}</li>
+        <p>Vehicles: {ride}</p>
     )
 }

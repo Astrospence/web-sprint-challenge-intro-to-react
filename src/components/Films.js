@@ -4,6 +4,6 @@ export default function Films(props) {
     const { films } = props;
 
     return (
-        <li>Films: {films.toString()}</li>
+        <p>Films: {films.toString()}</p>
     )
 }

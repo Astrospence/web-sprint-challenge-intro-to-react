@@ -16,6 +16,6 @@ export default function Homeworld(props) {
     }, [])
 
     return (
-        <li>Homeworld: {planet}</li>
+        <p>Homeworld: {planet}</p>
     )
 }

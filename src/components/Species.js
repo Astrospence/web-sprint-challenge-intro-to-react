@@ -16,6 +16,6 @@ export default function Species(props) {
     }, [])
 
     return (
-        <li>Species: {type}</li>
+        <p>Species: {type}</p>
     )
 }

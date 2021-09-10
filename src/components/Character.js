@@ -20,7 +20,12 @@ export default function Character(props) {
                 return <div>
                         <h2>{per.name}</h2>
                         <button onClick={() => openDetails(per.name)}>About</button>
-                        {currentCharacter ? <p>Info Here</p> : ''}
+                        {currentCharacter === per.name ? <ul><li>Homeworld: {per.homeworld}</li>
+                                                <li>Species: {per.species}</li>
+                                                <li>Films:</li>
+                                                <li>Vehicles: </li>
+                                                <li>Starships: </li>
+                                                </ul> : ''}
                         </div>
             })}
         </div>
